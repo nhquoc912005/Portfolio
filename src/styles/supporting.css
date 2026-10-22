@@ -1,0 +1,208 @@
+.skills-section {
+  background: var(--surface);
+  border-block: 1px solid #eaf0f6;
+}
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 17px;
+}
+.skill-card {
+  padding: 26px;
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 9px;
+}
+.skill-card > svg {
+  color: #6c8dbd;
+  margin-bottom: 18px;
+}
+.skill-card h3 {
+  color: var(--navy);
+  font-weight: 500;
+  font-size: 16px;
+  margin: 0 0 17px;
+}
+.skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+}
+.skill-tags > span {
+  color: #60738e;
+  font-size: 11px;
+  padding: 5px 8px;
+  background: #f6f8fc;
+  border: 1px solid #e8edf4;
+  border-radius: 4px;
+}
+.skill-card:last-child {
+  grid-column: span 3;
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  padding: 22px 26px;
+}
+.skill-card:last-child > svg,
+.skill-card:last-child h3 {
+  margin: 0;
+}
+.project-technologies {
+  border-top: 1px solid #dfe7f1;
+  margin-top: 35px;
+  padding-top: 25px;
+}
+.project-technologies > .eyebrow {
+  font-size: 11px;
+  margin-bottom: 15px;
+}
+.project-technologies > p {
+  color: #7a889c;
+  font-size: 11px;
+  margin: 13px 0 0;
+  line-height: 1.8;
+}
+.achievements-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 22px;
+}
+.achievement-card {
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 28px;
+}
+.achievement-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 29px;
+}
+.achievement-top .outline-icon {
+  width: 46px;
+  height: 46px;
+  background: #f4f7fc;
+}
+.achievement-label {
+  color: #7186a3;
+  font-size: 11px;
+}
+.achievement-card .eyebrow {
+  font-size: 10px;
+  margin-bottom: 10px;
+}
+.achievement-card h3 {
+  font-size: 18px;
+  color: var(--navy);
+  font-weight: 500;
+  line-height: 1.7;
+  margin: 0 0 13px;
+}
+.achievement-card p {
+  font-size: 12px;
+  color: var(--muted);
+  line-height: 1.95;
+  margin: 0;
+}
+.achievement-card .image-gallery {
+  margin-top: 20px;
+  grid-template-columns: 1fr;
+}
+.contact-section {
+  padding: 0 0 75px;
+}
+.contact-panel {
+  position: relative;
+  overflow: hidden;
+  background: var(--navy);
+  border-radius: 13px;
+  padding: 60px;
+  color: #fff;
+}
+.contact-content {
+  position: relative;
+  z-index: 1;
+  max-width: 850px;
+}
+.contact-panel .eyebrow {
+  color: #a6c2eb;
+  font-size: 11px;
+}
+.contact-panel .section-title {
+  color: #fff;
+  font-size: 38px;
+}
+.contact-lead {
+  color: #b3c1d5;
+  font-size: 14px;
+  line-height: 1.9;
+  max-width: 580px;
+  margin: 23px 0;
+}
+.contact-email {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-size: 21px;
+  letter-spacing: -0.02em;
+  margin-bottom: 28px;
+  overflow-wrap: anywhere;
+  width: fit-content;
+}
+.contact-actions {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  flex-wrap: wrap;
+}
+.contact-actions .button {
+  font-size: 12px;
+  min-height: 42px;
+}
+.button-white {
+  color: var(--navy);
+  background: #fff;
+}
+.button-translucent {
+  background: transparent;
+  color: #d0def1;
+  border: 1px solid #56708f;
+}
+.button-translucent:disabled {
+  color: #b2c3d9;
+}
+.contact-github {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 12px;
+  margin-left: 9px;
+  color: #cbdaee;
+}
+.copy-status {
+  min-height: 16px;
+  font-size: 12px;
+  color: #d6e7ff;
+  margin: 12px 0 0;
+  max-width: 560px;
+}
+.contact-cv {
+  position: absolute;
+  right: 45px;
+  bottom: 35px;
+}
+.contact-cv .button {
+  font-size: 11px;
+  min-height: 35px;
+  padding: 7px 10px;
+}
+.contact-decoration {
+  position: absolute;
+  right: -18px;
+  top: -72px;
+  font-size: 430px;
+  line-height: 1.2;
+  color: #ffffff04;
+  font-weight: 400;
+}

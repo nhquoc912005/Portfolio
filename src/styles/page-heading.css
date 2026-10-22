@@ -1,0 +1,35 @@
+.page-heading {
+  padding-top: 80px;
+  padding-bottom: 55px;
+  position: relative;
+}
+.page-title {
+  color: var(--navy);
+  font-weight: 500;
+  font-size: clamp(37px, 4.8vw, 61px);
+  line-height: 1.3;
+  letter-spacing: -0.05em;
+  white-space: pre-line;
+  margin: 0;
+}
+.page-title > span {
+  color: var(--accent);
+}
+.page-lead {
+  font-size: 15px;
+  max-width: 650px;
+}
+.page-shell {
+  padding-bottom: 90px;
+}
+.page-heading-mark {
+  position: absolute;
+  right: 25px;
+  top: 100px;
+  color: #cddbf0;
+}
+.page-heading-mark svg {
+  width: 88px;
+  height: 88px;
+  stroke-width: 0.65;
+}

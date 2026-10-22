@@ -1,0 +1,48 @@
+.site-footer {
+  border-top: 1px solid var(--border);
+  padding: 35px 0 20px;
+}
+.footer-top {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  padding-bottom: 28px;
+  border-bottom: 1px solid #edf0f5;
+}
+.footer-top > p {
+  color: #7c8aa0;
+  font-size: 12px;
+}
+.footer-github {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #69809e;
+  margin-left: auto;
+}
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+  margin-top: 20px;
+  color: #8390a3;
+  font-size: 10px;
+  line-height: 1.8;
+}
+.footer-bottom p {
+  margin: 0;
+}
+.footer-bottom a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.back-to-top {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  z-index: 30;
+  background: #fff;
+  border: 1px solid var(--border);
+  box-shadow: 0 3px 20px #142d4e10;
+}

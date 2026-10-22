@@ -1,0 +1,133 @@
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 40;
+  background: #ffffffed;
+  backdrop-filter: blur(14px);
+  border-bottom: 1px solid #e2e8f0aa;
+}
+.nav-inner {
+  height: 84px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 22px;
+}
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  white-space: nowrap;
+}
+.brand-avatar {
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 1px solid var(--border);
+  background: #fff;
+}
+.brand-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 30%;
+  transform: scale(1.7);
+  transform-origin: center 36%;
+}
+.brand-monogram {
+  font-size: 34px;
+  font-weight: 700;
+  letter-spacing: -0.1em;
+  color: var(--navy);
+  line-height: 1;
+}
+.brand-monogram span {
+  color: var(--accent);
+}
+.brand-label {
+  font-size: 13px;
+  color: var(--navy);
+  font-weight: 600;
+  line-height: 1.5;
+}
+.brand-label small {
+  display: block;
+  color: var(--muted);
+  font-size: 9px;
+  font-weight: 400;
+  letter-spacing: 0.18em;
+  margin-top: 4px;
+}
+.desktop-nav {
+  display: flex;
+  align-items: center;
+  gap: 27px;
+}
+.nav-link {
+  font-size: 13px;
+  color: #56657a;
+  position: relative;
+  padding: 14px 0;
+  white-space: nowrap;
+}
+.nav-link.active {
+  color: var(--accent);
+}
+.nav-link.active::after {
+  content: "";
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: var(--accent);
+  position: absolute;
+  bottom: 2px;
+  left: calc(50% - 2px);
+}
+.nav-link:hover {
+  color: var(--accent);
+}
+.nav-actions {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+}
+.language-switch {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 12px;
+}
+.language-switch button {
+  background: transparent;
+  color: var(--muted);
+  min-height: 40px;
+  padding: 0 2px;
+  font-size: 12px;
+}
+.language-switch button[aria-pressed="true"] {
+  color: var(--accent);
+  font-weight: 700;
+}
+.language-switch > span {
+  color: #bac5d5;
+}
+.nav-contact {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  color: var(--navy);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 10px 13px;
+  font-size: 12px;
+  font-weight: 500;
+}
+.nav-contact:hover {
+  border-color: var(--accent);
+}
+.menu-toggle,
+.mobile-nav {
+  display: none;
+}
